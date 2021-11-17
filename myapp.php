@@ -1,6 +1,6 @@
 <html>
  	<head>
-  		<title>Nagarajan</title>
+  		<title>PHP test</title>
  	</head>
  	<body>
 		<?php
