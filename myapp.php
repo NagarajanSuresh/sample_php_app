@@ -11,7 +11,7 @@
 			}
 			echo "Connected to the database successfully";
 			$result = $conn->query("SELECT * FROM students");
-			echo "<br>Number of rows: $result->num_rows";
+			echo "<br>Number of rows in the databses: $result->num_rows";
 			$result->close();
 			$conn->close();
 		?>
