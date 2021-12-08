@@ -7,7 +7,8 @@
     <center>
         <?php
         $dbpassword = "root";
-        $conn = mysqli_connect("sql_container", "root", $dbpassword, "school");
+        $db_host=trim(file_get_contents('host.txt'));
+        $conn = mysqli_connect($db_host, "root", $dbpassword, "school");
         // Check connection
         if($conn === false){
             die("ERROR: Could not connect. " 
