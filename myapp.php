@@ -4,7 +4,7 @@
  	</head>
  	<body>
 		<?php
-			$dbpassword = "root";
+			$dbpassword = "rootroot";
 			$db_host=trim(file_get_contents('host.txt'));
 			$conn = new mysqli($db_host,"root",$dbpassword,"school");
 			if($conn -> connect_error){
