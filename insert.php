@@ -6,7 +6,7 @@
 <body>
     <center>
         <?php
-        $dbpassword = "root";
+        $dbpassword = "rootroot";
         $db_host=trim(file_get_contents('host.txt'));
         $conn = mysqli_connect($db_host, "root", $dbpassword, "school");
         // Check connection
