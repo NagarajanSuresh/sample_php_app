@@ -6,7 +6,6 @@
 		<?php
 			$dbpassword = "rootroot";
 			$db_host=trim(file_get_contents('host.txt'));
-			echo $db_host;
 			$conn = new mysqli($db_host,"root",$dbpassword,"school");
 			if($conn -> connect_error){
 				echo "\nError: Unable to connect: " .$conn -> connect_error;
