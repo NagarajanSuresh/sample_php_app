@@ -6,7 +6,7 @@
 <body>
     <center>
         <?php
-        $dbpassword = getenv("SQL_PASSWORD");
+        $dbpassword = "root";
         $conn = mysqli_connect("sql_container", "root", $dbpassword, "school");
         // Check connection
         if($conn === false){
