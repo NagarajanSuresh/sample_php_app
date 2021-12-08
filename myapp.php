@@ -4,7 +4,7 @@
  	</head>
  	<body>
 		<?php
-			$dbpassword = getenv('SQL_PASSWORD');
+			$dbpassword = "root";
 			$conn = new mysqli("sql_container","root",$dbpassword,"school");
 			if($conn -> connect_error){
 				echo "\nError: Unable to connect: " .$conn -> connect_error;
